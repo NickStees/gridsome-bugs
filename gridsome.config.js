@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Gridsome',
+  prefetch: { mask: '^$', },// example - disable all prefetch
   plugins: [
     {
       use: '@gridsome/vue-remark',
